@@ -13,7 +13,7 @@
 
 .right {
   position: fixed;
-  background-color:#bcdfef;
+  background-color:lightblue;
   width: 50%;
   height: 100%;
   top: 0;
@@ -28,7 +28,7 @@ h1 {
 .rocket {
   position: absolute;
   left: 50%;
-  bottom: 20px;
+  bottom: 40px;
   width: 128px;
   height: 128px;
   margin-left: -64px;
@@ -43,6 +43,13 @@ body.body-state1 .rocket {
 body.body-state3 .rocket,
 body.body-state4 .rocket {
   bottom: 1000px;
+}
+
+body.body-state5 .rocket {
+  background-image: url('img/boom.gif');
+  width: 393px;
+  height: 359px;
+  margin-left: -150px;
 }
 
 .state1,
@@ -61,13 +68,15 @@ body.body-state4 .state4 {display: block;}
 body.body-state5 .state5 {display: block;}
 
 .ground {
-  background-color: green;
+  background-image: url('img/ground.gif');
   position: absolute;
   bottom: 0;
   left:0;
   width: 100%;
-  height: 15px;
+  height: 45px;
 }
+
+
 a {
   text-decoration: none;
   font-size: 2em;
