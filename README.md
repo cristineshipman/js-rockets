@@ -1,6 +1,6 @@
 # js-rocket
 
-## [CLICK ME](http://www.cristineshipman.com/patatap/ "patatap page") to see the live project.
+## [Click Here](http://www.cristineshipman.com/js-rockets/# "js rockets page") to see the live project.
 
 ### Launching rockets with JavaScript
 
